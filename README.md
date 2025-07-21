@@ -28,3 +28,31 @@ Digital lending platforms face uncertainty in borrower behavior, repayment, and 
 - Average profit per loan (in INR)
 - Segment-wise profit distribution
 - Histogram of profit across all loans
+
+## 🖥️ How to Run
+
+1. Clone the repo:
+
+2. Create a virtual environment:
+   python -m venv venv
+   source venv/bin/activate # or venv\Scripts\activate on Windows
+  
+3. Install requirements:
+   pip install -r requirements.txt
+   
+4. Run the simulation:
+   python simulation.py
+   
+5. View <img width="2553" height="1388" alt="image" src="https://github.com/user-attachments/assets/6db5012f-466e-4c10-a63c-3b706caf3937" />
+
+
+## 📁 File Structure
+
+- `simulation.py`: Main simulation logic
+- `loan_simulation.ipynb`: Notebook version for interactive use
+- `results/profit_histogram.png`: Visual output
+- `requirements.txt`: Dependencies
+
+## ✍️ Author
+
+Varun Gehlot – Independent Quantitative Research Project (2024)
